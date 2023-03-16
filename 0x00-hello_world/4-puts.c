@@ -4,9 +4,10 @@
  *
  * Return: Always 0 (Code for Success)
 */
-int main (void)
+int	main(void)
 {
-	char str[55] = "\"Programming is like building a multilingual puzzle";
+	char	str[60] = "\"Programming is like building a multilingual puzzle";
+
 	puts(str);
 	return (0);
 }
