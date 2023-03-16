@@ -1,11 +1,9 @@
 #include <stdio.h>
-/*
- * main - Entery Point
- * Printing the size of some basic C datatypes
+/**
+ * main - Entry point
  *
- * the return value: 0
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
