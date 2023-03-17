@@ -17,8 +17,8 @@ int	main(void)
 		putchar(nbr + '0');
 		if (nbr != 9)
 		{
-			putchar(' ');
 			putchar(',');
+			putchar(' ');
 		}
 		nbr++;
 	}
