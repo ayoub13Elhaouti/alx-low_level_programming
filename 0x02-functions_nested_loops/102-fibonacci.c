@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
- * main - prints the first 50 Fibonacci numbers separated by a ',' ,starting with 1 and 2
+ * main - prints the first 50 Fibonacci numbers
  * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	long int	i, j, k;
-	long int	next;
+	long int	i, j, k, next;
 
 	j = 1;
 	k = 2;
