@@ -5,11 +5,11 @@
   * @str: the string
   * Return: return the length of the string
 **/
-int _lenght(char *str)
+int lenght(char *str)
 {
 	if (*str == '\0')
 		return (0);
-	return (1 + _lenght(str + 1));
+	return (1 + lenght(str + 1));
 }
 
 /**
