@@ -5,9 +5,9 @@
 
 /**
  * main - add
- * @argc: integer
+ * @argc: int
  * @argv: string
- * Return: 0 for SUCCESS, 1 for ERROR 
+ * Return: int
  */
 int main(int argc, char *argv[])
 {
