@@ -9,7 +9,7 @@
  *
  * Return: the new list pointer
  */
-listint_t **_ra(listint_t **list, size_t size, listint_t *new)
+listint_t **_a(listint_t **list, size_t size, listint_t *new)
 {
 	listint_t **newls;
 	size_t idx;
