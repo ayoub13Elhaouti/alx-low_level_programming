@@ -9,7 +9,7 @@
  *
  * Return: the new list pointer
  */
-listint_t **_a(listint_t **list, size_t size, listint_t *new)
+listint_t **_as(listint_t **list, size_t size, listint_t *new)
 {
 	listint_t **newls;
 	size_t idx;
@@ -53,7 +53,7 @@ size_t free_listint_safe(listint_t **head)
 			}
 		}
 		nbr++;
-		list = _a(list, nbr, *head);
+		list = _as(list, nbr, *head);
 		next = (*head)->next;
 		free(*head);
 		*head = next;
