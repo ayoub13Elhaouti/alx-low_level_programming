@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * _a - memory for an array of pointers reallocation
+ * _as - memory for an array of pointers reallocation
  * to the nodes in a linked list
  * @list: the old list to append
  * @size: size of the new list
