@@ -7,7 +7,7 @@
  * @filename: variable pointer
  * @text_content: content file
  * Description: append a text at the end of a file
- * Return: 1 on success, -1 for else 
+ * Return: 1 on success, -1 for else
  */
 
 int append_text_to_file(const char *filename, char *text_content)

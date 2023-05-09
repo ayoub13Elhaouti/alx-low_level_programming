@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 int fl_from, fl_to;
-int nbr1 = 1024, nbr22 = 0;
+int nbr1 = 1024, nbr2 = 0;
 char buffer[1024];
 
 if (argc != 3)
@@ -38,7 +38,7 @@ while (nbr1 == 1024)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	nbr2 = write(fl_to, bufffer, nbr1);
+	nbr2 = write(fl_to, buffer, nbr1);
 	if (nbr2 < nbr1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 }
